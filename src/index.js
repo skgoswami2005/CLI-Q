@@ -75,7 +75,7 @@ program
       ]);
 
       if (copyCommand) {
-        clipboardy.writeSync(editedCommand);
+        clipboardy.writeSync(generatedCommand);
         console.log(
           chalk.cyan(
             "Command copied to clipboard! You can now paste it into your terminal."
