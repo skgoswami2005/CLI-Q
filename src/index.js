@@ -63,10 +63,7 @@ program
     try {
       const spinner = ora("Generating command...").start();
 
-      // await new Promise((resolve) => setTimeout(resolve, 2000)); // Simulate delay
-
       const result = await model.generateContent(prompt);
-      // console.log(result.response.text());
 
       spinner.succeed();
 
