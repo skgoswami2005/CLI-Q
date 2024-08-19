@@ -12,9 +12,7 @@ import ora from "ora";
 const genAI = new GoogleGenerativeAI(getApiKey());
 const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
-program
-  .version("0.1.0")
-  .description("A simple CLI tool to generate a random password");
+program.version("0.1.0").description("CLI-Q is a CLI tool to generate command");
 
 program.command("hi").action(() => {
   console.log("Hello, World!");
