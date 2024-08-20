@@ -1,5 +1,5 @@
 {
-  "name": "cli-q",
+  "name": "@cli-q/cli-q",
   "version": "0.1.0",
   "description": "A command-line tool for generating and explaining commands",
   "main": "src/index.js",
